@@ -2,10 +2,19 @@
 GLOBAL 
 */
 
+body {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    color: #666666;
+
+}
+
 p {
     margin-top: 1.5rem;
     font-size: 18px;
 }
+
+
 
 .btn {
     color: white;
@@ -15,6 +24,10 @@ p {
     letter-spacing: 1px;
     border-radius: 0px;
     font-size: 12px;
+}
+
+div {
+    display: block;
 }
 
 
@@ -74,4 +87,23 @@ Section 1
     background-color: #fff;
     color: #333;
     border-color: #fff;
+    
+}
+
+/* 
+Menu
+*/
+
+/* 
+section 2 header
+*/
+
+.header .logo {
+    margin: 100px 0;
+    max-width: 100%;
+}
+
+.dinner-header {
+   text-align: center;
+   margin: 100px 0;
 }
