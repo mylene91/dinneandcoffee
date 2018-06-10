@@ -12,6 +12,7 @@ body {
 p {
     margin-top: 1.5rem;
     font-size: 18px;
+    font-weight: 300;
 }
 
 
@@ -50,11 +51,13 @@ Section 1
 
 .section_1 p {
     color: aliceblue;
+    font-weight: 100;
 }
 
 .section_1 h2.section-titre {
     color: aliceblue;
     font-family: 'Raleway', sans-serif;
+    font-weight: 100;
     font-size: 60px;
     letter-spacing: 5px;
     margin-bottom: 35px;
@@ -106,4 +109,86 @@ section 2 header
 .dinner-header {
    text-align: center;
    margin: 100px 0;
+}
+
+/* 
+section 3 menus
+*/
+
+p.subtitle {
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 40px;
+    color: #333;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    margin-top: 0;
+    position: relative;
+    padding-left: 50px;
+    text-transform: uppercase;
+}
+
+h2.section-title {
+    font-size: 60px;
+    line-height: 74px;
+    letter-spacing: 5px;
+    color: #292728;
+    margin-bottom: 80px;
+    font-weight: 100;
+}
+
+
+p.name {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+p.price {
+    font-size: 42px;
+    color: #333px;
+    margin-top: 20px;
+}
+
+/* cases en gris clair */
+.menu-list-item .content {
+    background-color: #f8f8f8;
+    padding: 30px;
+    list-style-type: none;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.menu .menu-list-item .content .name {
+    font-size: 24px;
+    line-height: 1.7;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* 
+Filet 
+*/
+
+p.subtitle:before {
+    content: "";
+    height: 1px;
+    width: 4000px;
+    position: absolute;
+    left: -3980px;
+    top: 13px;
+    background: #eee;
+}
+
+p.subtitle:after {
+    content: "";
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    left: 0;
+    margin-left: 18px;
+    top: 11px;
+    background: #eee;
+    border-radius: 50%;
 }
