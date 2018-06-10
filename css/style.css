@@ -1,4 +1,77 @@
-.red {
-    height: 600px;
-    background-color: blueviolet;
+/* 
+GLOBAL 
+*/
+
+p {
+    margin-top: 1.5rem;
+    font-size: 18px;
+}
+
+.btn {
+    color: white;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border-radius: 0px;
+    font-size: 12px;
+}
+
+
+/* 
+Section 1 
+*/
+
+.section_1 {
+    height: 486px;
+    background-position: center;
+    text-align: center;
+    padding: 0px;
+    background-size: cover;
+    
+}
+
+.section_1 .accueil-site {
+    margin: 60px 0px;
+}
+
+.section_1 p {
+    color: aliceblue;
+}
+
+.section_1 h2.section-titre {
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    letter-spacing: 5px;
+    margin-bottom: 35px;
+}
+
+.col-md-8 col-md-offset-2 {
+    margin-left: 16%;
+}
+
+.section_1 .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section_1 .subtitle-accueil{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+    margin-bottom: 25px;
+    font-weight: 300;
+    text-transform: unset;
+    letter-spacing: 1px;
+    padding-left: 0;
+}
+
+.section_1 .btn-info {
+    background-color: #fff;
+    color: #333;
+    border-color: #fff;
 }
