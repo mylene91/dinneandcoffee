@@ -15,13 +15,17 @@ p {
     font-weight: 300;
 }
 
+section {
+    padding: 120px 0px;
+}
+
 
 
 .btn {
     color: white;
     padding: 20px 40px;
     text-transform: uppercase;
-    font-weight: bolder;
+    font-weight: 700;
     letter-spacing: 1px;
     border-radius: 0px;
     font-size: 12px;
@@ -41,8 +45,7 @@ Section 1
     background-position: center;
     text-align: center;
     padding: 0px;
-    background-size: cover;
-    
+    background-size: cover;    
 }
 
 .section_1 .accueil-site {
@@ -63,9 +66,11 @@ Section 1
     margin-bottom: 35px;
 }
 
-.col-md-8 col-md-offset-2 {
-    margin-left: 16%;
+.accueil-site {
+    text-align: center;
 }
+
+
 
 .section_1 .container {
     padding-right: 15px;
@@ -97,18 +102,17 @@ Section 1
 Menu
 */
 
+
 /* 
 section 2 header
 */
 
 .header .logo {
-    margin: 100px 0;
     max-width: 100%;
 }
 
 .dinner-header {
    text-align: center;
-   margin: 100px 0;
 }
 
 /* 
@@ -191,4 +195,42 @@ p.subtitle:after {
     top: 11px;
     background: #eee;
     border-radius: 50%;
+}
+
+
+/* 
+Section 4
+*/
+
+.theBestFood_image {
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 190px 0px;
+    position: relative;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.theBestFood_image h2.section-title {
+    font-size: 60px;
+    line-height: 74px;
+    letter-spacing: 5px;
+    color: #fff;
+    margin-bottom: 80px;
+    font-weight: 100;
+}
+
+.section-subtitle {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    margin-top: 0;
 }
