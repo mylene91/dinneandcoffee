@@ -20,7 +20,6 @@ section {
 }
 
 
-
 .btn {
     color: white;
     padding: 20px 40px;
@@ -79,7 +78,7 @@ Section 1
     margin-left: auto;
 }
 
-.section_1 .subtitle-accueil{
+.section_1 .subtitle-accueil {
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
     line-height: 36px;
@@ -101,7 +100,30 @@ Section 1
 /* 
 Menu
 */
+.menunavbar {
+    background-color: #eb4f30;
+    text-align: center;
+    border: none;
+    padding-top: 3vh;
+}
 
+.menunavbar li a {
+    font-family: 'Raleway', sans-serif;
+    text-transform: none;
+    color: #fff;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    font-weight: 200;
+    padding: 20px 18px;
+    text-decoration: none;
+    line-height: 1.2rem;
+}
+
+.section .contact {
+    text-align: center;
+    margin: 0 auto;
+    
+}
 
 /* 
 section 2 header
@@ -234,3 +256,18 @@ Section 4
     font-weight: 900;
     margin-top: 0;
 }
+
+
+
+
+/* RESPONSIVE */
+ 
+
+@media screen and (max-width: 768px) {
+
+    .theBestFood_image h2.section-title {
+        font-size: 52px;
+        line-height: 54px;
+}
+
+
