@@ -306,6 +306,64 @@ Section 4
     position: absolute;
 }
 
+/* SECTION 7 */
+
+.testimonials {
+    background: #f8f8f8;
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.testimonials .testimonial {
+    margin-bottom: 50px;
+}
+
+.testimonials .author {
+    margin-top: 30px;
+}
+
+.testimonials .testimonial .name-testi {
+    font-size: 16px;
+    line-height: 28px;
+    color: #45474d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.testimonials .testimonial .content {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 200i;
+    line-height: 36px;
+    color: #45474d;
+    margin-top: 0;
+}
+
+.testimonials .testimonial .position {
+    font-size: 14px;
+    line-height: 26px;
+    color: #adaeb0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: auto 0;
+}
+
+.testimonials .testimonial a {
+    color: #adaeb0;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
 /* RESPONSIVE */
  
 
