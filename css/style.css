@@ -19,6 +19,10 @@ p {
 
 }
 
+h4 {
+    font-size: .800rem;
+}
+
 section {
     padding: 120px 0px;
 }
@@ -431,6 +435,7 @@ img {
     clear: both;
     display: table;
     width: 100%;
+    text-align: center;
 }
 
 .fa {
@@ -438,10 +443,73 @@ img {
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
     text-rendering: auto;
+    color: #fff;
+    width: 30px;
 }
 
+/* SECTION 9 */
 
+.profil_headcook {
+   padding-top: 300px;
+   background-size: cover;
+   background-position: top center;
+   background-repeat: no-repeat;
+   position: relative;
+   text-align: center;
+}
 
+.text-center {
+    text-align: center;
+}
+
+.profil_headcook h3 {
+    margin-top: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 62px;
+    line-height: 74px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.profil_headcook h4 {
+    margin-top: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.profil_headcook p, .profil_headcook .bio {
+    margin-top: 15px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.profil_headcook .social-list {
+    padding: 0;
+    margin-top: 30px;
+    list-style-type: none;
+    clear: both;
+    display: table;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.profil_headcook .social-list li a {
+    font-size: 16px;
+    color: #fff;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    display: block;
+}
+
+.accent-color {
+    color: #eb4f30;
+}
 /* RESPONSIVE */
  
 
