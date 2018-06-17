@@ -364,6 +364,84 @@ Section 4
     text-align: left;
 }
 
+/* SECTION 8 */
+
+.profile-team {
+    position: relative;
+}
+
+.profile-team .team-member img {
+    max-width: 100%;
+}
+
+img {
+    vertical-align: middle;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.profile-team .team-member:hover .team-member-content{
+    margin-top: 0px;
+    opacity: 1;
+    transform: scale(1);
+    bottom: -50px; 
+}
+
+.profile-team .team-member .team-member-content {
+    transition: all 0.5s ease;
+    opacity: 0;
+    background-color: #222 !important;
+    transform: scale(0);
+    padding: 10px 20px;
+    position: absolute;
+    bottom: -50px;
+    width: 92.3%;
+    z-index: 999;
+}
+
+.profile-team .team-member h3 {
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.profile-team .team-member h4 {
+    margin-top: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.profile-team .team-member p, .profile-team .team-member .bio {
+    margin-top: 5px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.profile-team .team-member .social-list {
+    padding: 0;
+    margin-top: 20px;
+    list-style-type: none;
+    clear: both;
+    display: table;
+    width: 100%;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}
+
+
+
 /* RESPONSIVE */
  
 
