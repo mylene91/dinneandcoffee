@@ -569,6 +569,25 @@ img {
     text-transform:uppercase;
     letter-spacing:1px;
 }
+
+
+
+/* FOOTER */
+
+footer.footer {
+    background-color:#262626;
+    padding:90px 0px;
+}
+
+.footer-logo {
+    margin-bottom: 10px;
+    display: block;
+}
+
+footer.footer .footer-logo img {
+    max-width:130px;
+}
+
 /* RESPONSIVE */
  
 
